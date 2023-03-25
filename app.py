@@ -13,7 +13,7 @@ selected=option_menu(
         default_index=0,
         orientation="horizontal",)
 st.title("Select programming language")
-language = st.selectbox("options", ["C", "C++","Java", "Python","HTML/CSS/Javascript","Verilog"],label_visibility='collapsed'))
+language = st.selectbox("options", ["C", "C++","Java", "Python","HTML/CSS/Javascript","Verilog"],label_visibility='collapsed')
 
 if language == "C":
     components.iframe(''' http://jdoodle.com/a/63kh''',width=800, height=666, scrolling=False)
