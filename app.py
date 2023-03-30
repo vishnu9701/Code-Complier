@@ -3,7 +3,7 @@ import streamlit.components.v1 as components
 from streamlit.components.v1 import iframe
 
 from streamlit_option_menu import option_menu
-st.set_page_config(    page_title="AI Resume Analyser",    page_icon='./Images/mm.png')
+st.set_page_config(page_title="Code75", page_icon='./Images/mm.png')
     
 selected=option_menu(
         menu_title="RUHVSoft LLP",
